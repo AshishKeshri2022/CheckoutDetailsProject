@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Online Suite" duration-ms="33986" started-at="2022-02-27T06:46:25Z" finished-at="2022-02-27T06:46:59Z">
+    <groups>
+    </groups>
+    <test name="LoginPage" duration-ms="12085" started-at="2022-02-27T06:46:25Z" finished-at="2022-02-27T06:46:37Z">
+      <class name="com.page.LoginPage">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.page.LoginPage@4c75cab9]" name="setup" duration-ms="9471" started-at="2022-02-27T12:16:25Z" finished-at="2022-02-27T12:16:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@15dcfae7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:com.page.LoginPage@4c75cab9]" name="Login" duration-ms="2605" started-at="2022-02-27T12:16:34Z" finished-at="2022-02-27T12:16:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- com.page.LoginPage -->
+    </test> <!-- LoginPage -->
+    <test name="StorePage" duration-ms="21888" started-at="2022-02-27T06:46:37Z" finished-at="2022-02-27T06:46:59Z">
+      <class name="com.page.StorePage">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.page.StorePage@4b6995df]" name="setup" duration-ms="0" started-at="2022-02-27T12:16:37Z" finished-at="2022-02-27T12:16:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3c9bfddc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="shopping()[pri:0, instance:com.page.StorePage@4b6995df]" name="shopping" duration-ms="21887" started-at="2022-02-27T12:16:37Z" finished-at="2022-02-27T12:16:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shopping -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.page.StorePage@4b6995df]" name="closeBrowser" is-config="true" duration-ms="67" started-at="2022-02-27T12:16:59Z" finished-at="2022-02-27T12:16:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.page.StorePage -->
+    </test> <!-- StorePage -->
+  </suite> <!-- Online Suite -->
+</testng-results>
